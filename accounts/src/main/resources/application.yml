@@ -1,0 +1,29 @@
+server:
+  port: 8080 # Application runs on this server and this is default port number
+spring:
+  application:
+    name: "accounts"
+  profiles:
+    active:
+      - "prod"
+  datasource:
+    url: jdbc:h2:mem:testdb #
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update  # don't want to create the table everytime if table not exists, it will go ahead and create it automatically when server started.
+      # because H2 database can wipe out the data if app stops.So, instead of creating the tables manually, we use this.
+    show-sql: true # print all the queries to the console which are executing during the application startup.
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+
+
+logging:
+  pattern:
+    console: ${CONSOLE_LOG_PATTERN:%green(%d{HH:mm.SSS}) %blue(%-5level) %red([%thread]) %yellow(%logger{15}) - %cyan(%msg%n)}
