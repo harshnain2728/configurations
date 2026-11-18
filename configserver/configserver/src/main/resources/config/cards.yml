@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to EazyBank cards related local APIs"
+  contactDetails:
+    name: "Harsh - Developer"
+    email: "harshnain2728@gmail.com"
+  onCallSupport:
+    - +91 730 243 4397
+    - +91 885 921 2929
