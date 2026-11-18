@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to EazyBank cards related Prod APIs"
+  contactDetails:
+    name: "Vansh - Product Owner"
+    email: "vanshnain28@gmail.com"
+  onCallSupport:
+    - +91 730 243 4397
+    - +91 885 921 2929
