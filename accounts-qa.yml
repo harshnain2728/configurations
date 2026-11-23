@@ -5,7 +5,7 @@ accounts:
   message: "Welcome to EazyBank cards related QA APIs"
   contactDetails:
     name: "Swati - QA Lead"
-    email: "swatiqa16@gmail.com"
+    email: "{cipher}af6a390a9c40378600cc72de0f6d806a1d7e9a6d75bd8d1db35a2599795fb82f9be794f4d37e3462a2f9e4a4041f1cf3"
   onCallSupport:
     - +91 730 243 4397
     - +91 885 921 2929
