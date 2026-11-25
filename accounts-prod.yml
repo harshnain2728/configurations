@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to EazyBank cards related Production APIs"
+  message: "Welcome to EazyBank cards related production APIs"
   contactDetails:
     name: "Vansh - Product Owner"
     email: "{cipher}2dd4b1c0ca274cafb2eac3dfbf73ad1438d1526eca1a99fb768ac94fbcaa22f70391de694d5c2ca528b635b621812b25"
